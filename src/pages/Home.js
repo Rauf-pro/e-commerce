@@ -11,7 +11,7 @@ const Home = () => {
    dispatch(porudctsAction())
   },[dispatch])
 
-  console.log("products", products)
+  // console.log("products", products)
   return (
     <div className='flex flex-wrap justify-center'>
       {
